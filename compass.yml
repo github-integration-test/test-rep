@@ -1,0 +1,23 @@
+modules:
+  compass:componentPage:
+    - key: test-app-hello-world-admin-page
+      function: main
+      title: Bitbucket
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Bitbucket-blue\
+        -logomark-only.svg/1200px-Bitbucket-blue-logomark-only.svg.png"
+      displayConditions:
+        componentTypes: [ SERVICE ]
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/235397de-333b-4948-8822-69f1dd95fec4
+permissions:
+  scopes:
+    # some of these scopes are not being used in the example app, but 
+    # it is much easier to remove scopes than to add them later
+    - storage:app
+    - read:component:compass
+    - write:component:compass
+    - read:scorecard:compass
+    - write:scorecard:compass
