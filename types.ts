@@ -1,1 +1,3 @@
-
+type a = {
+  b: string;
+};
