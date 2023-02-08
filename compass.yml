@@ -5,7 +5,7 @@ fields:
   tier: 4
 links:
   - type: REPOSITORY
-    name: null
+    name: 'koko'
     url: https://github.com/github-integration-test/test-rep
 relationships:
   DEPENDS_ON: []
