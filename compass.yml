@@ -1,0 +1,18 @@
+name: test team id cac github
+id: 'ari:cloud:compass:1bca4771-a876-4775-aa71-b8c72266c5bc:component/9de23fde-b6f9-4470-afb4-9fa87f24f1ca/9fa03291-8418-442c-a7fa-eb1dfb0ca96b'
+description: null
+configVersion: 1
+typeId: SERVICE
+ownerId: ari:cloud:teams::team/e56956b7-f78b-4353-9be8-a0fbb
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/github-integration-test/test-rep'
+relationships: {}
+labels: null
+customFields: null
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
