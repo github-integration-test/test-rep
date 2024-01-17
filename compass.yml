@@ -1,0 +1,25 @@
+name: test-rep
+id: ari:cloud:compass:25991689-b4d3-49b0-94ed-550da506ab0c:component/89f6a7e9-4b87-41cb-81ee-ca6b1e81af02/f549d44a-1654-4fe4-842a-957c851ef2d5
+description: new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123new description123
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/github-integration-test/test-rep
+relationships:
+  DEPENDS_ON: []
+labels:
+  - dodo
+  - koko
+  - language:typescript
+  - lolo
+  - momo
+  - nono
+  - source:github
+customFields:
+  - name: toto
+    type: text
+    value: null
